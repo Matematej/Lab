@@ -1,6 +1,6 @@
 # Konfigurace Remote Backend pomocí S3 a DynamoDB
 
-## Konfigurace S3 Bucket
+## Konfigurace S3 Bucketu
 - **force_destroy**: bucket bude pomocí `terraform destroy` odstraněn i když obsahuje TF State soubor
 - **aws_s3_bucket_versioning**: lze zobrazit předchozí verze TF State souboru v bucketu
 - **aws_s3_bucket_server_side_encryption_configuration**: obsah bucketu je chráněn šifrováním
