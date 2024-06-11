@@ -6,12 +6,11 @@
 - **aws_s3_bucket_server_side_encryption_configuration**: obsah bucketu je chráněn šifrováním
 
 ## Předpoklady
-1. Nainstalujte Terraform a AWS CLI
+1. Nainstalovaný Terraform a AWS CLI
 
 ## Lab
 
-1. Vytvořte IAM Uživatele s programatickým přístupem
-    - IAM Role
+1. Vytvořte IAM Uživatele s programatickým přístupem pomocí IAM Role
 
 2. Nakonfigurujte AWS CLI:
     ```bash
