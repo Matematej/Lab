@@ -49,7 +49,7 @@ Nainstalovaný Terraform a AWS CLI
 
 7. V AWS konzoli zkontrolujte, že existuje:
     - `terraform.tfstate` uvnitř S3 bucketu
-    - (LockId uvnitř DynamoDB)
+    - LockId uvnitř DynamoDB
 
 8. Vyzkoušejte užití příkazu pro manuální odemknutí (`<LOCK_ID>` lze zkopírovat z error zprávy v terminálu):
     ```bash
