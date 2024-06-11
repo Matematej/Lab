@@ -17,7 +17,7 @@
     aws configure --profile=Backend-profile
     ```
 
-3. Vytvořte S3 bucket a DynamoDB lokálně (TF State nelze ukládat do bucketu, který neexistuje):
+3. Vytvořte S3 bucket a DynamoDB nejprve lokálně (TF State nelze ukládat do bucketu, který neexistuje):
     ```bash
     terraform init # Vytvoření lokálního TF State souboru
     terraform plan
